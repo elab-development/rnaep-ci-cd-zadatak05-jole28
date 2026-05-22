@@ -1,5 +1,8 @@
-fastapi>=0.110.0
+fastapi==0.95.2
 uvicorn[standard]
-redis-om>=0.2.1
+redis-om==0.2.1
 python-dotenv
-httpx
+httpx==0.24.1
+pydantic==1.10.13
+pytest
+pytest-asyncio

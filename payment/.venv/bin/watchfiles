@@ -1,0 +1,6 @@
+#!/Users/jovanasekulic/rnaep-ci-cd-zadatak05-jole28/payment/.venv/bin/python
+import sys
+from watchfiles.cli import cli
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(cli())

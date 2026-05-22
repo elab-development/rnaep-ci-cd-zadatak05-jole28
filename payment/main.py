@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=['*']
 )
 
-class Order(HashModel, index=True):
+class Order(HashModel):
     product_id: str
     price: float
     fee: float
